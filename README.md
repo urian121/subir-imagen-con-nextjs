@@ -10,7 +10,9 @@
     npm run dev
     Visita http://localhost:3000 en tu navegador
 
-## Instalación de Librerías Adicionales
+##### Instalar lucide-react para menejar iconos
+
+    npm install lucide-react
 
 ##### Instalar la libreria react-toastify para crear las alertas.
 
