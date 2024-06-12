@@ -58,7 +58,7 @@ export default function Formulario() {
       <LoadingBar color="#80f" ref={ref} shadow={true} />
       <form onSubmit={subirImagen}>
         <div className="mb-3">
-          <label htmlFor="exampleFormControlInput1" className="form-label">
+          <label htmlFor="file" className="form-label">
             Seleccione la imagen
           </label>
           <input
