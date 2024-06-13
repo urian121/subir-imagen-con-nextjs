@@ -1,9 +1,11 @@
 import Image from "next/image";
-import { readdirSync, statSync } from "fs";
-import path from "path";
+import { readdirSync, statSync } from "fs"; // Importa funciones de lectura de directorios y obtención de estadísticas de archivos del módulo 'fs'.
+import path from "path"; // Importa el módulo 'path' para manipulación de rutas de archivos y directorios.
 
 function getImages() {
+  // Define la ruta absoluta al directorio 'public/img_cargadas' relativo al directorio actual de trabajo.
   const imagesDirectory = path.join(process.cwd(), "public/img_cargadas");
+  // Lee y obtiene una lista de nombres de archivos en el directorio 'imagesDirectory'.
   const files = readdirSync(imagesDirectory);
 
   const images = files.map((fileName) => {

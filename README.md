@@ -10,6 +10,13 @@
     npm run dev
     Visita http://localhost:3000 en tu navegador
 
+##### Instalar Bootstrap
+
+    En el archivo layout.js o layout.tsx, comenta la importación de globals.css y luego importa el CSS de Bootstrap de la siguiente manera:
+
+    // import 'globals.css';
+    import "bootstrap/dist/css/bootstrap.min.css";
+
 ##### Instalar lucide-react para menejar iconos
 
     npm install lucide-react
